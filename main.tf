@@ -49,7 +49,7 @@ resource   "azurerm_windows_virtual_machine"   "example"   {
    name                    =   "myvm1"   
    location                =   var.location 
    resource_group_name     =   var.RGName
-   network_interface_ids   =   [ azurerm_network_interface.myvm 1 nic.id ] 
+   network_interface_ids   =   [azurerm_network_interface.myvm1nic.id] 
    size                    =   "Standard_B1s" 
    admin_username          =   "adminuser" 
    admin_password          =   "Password123!" 
