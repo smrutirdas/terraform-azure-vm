@@ -42,7 +42,7 @@ resource   "azurerm_network_interface"   "myvm1nic"   {
      name   =   "ipconfig1" 
      subnet_id   =   azurerm_subnet.frontendsubnet.id 
      private_ip_address_allocation   =   "Dynamic" 
-     public_ip_address_id   =   azurerm_public_ip.myvm 1 publicip.id 
+     public_ip_address_id   =   azurerm_public_ip.myvm1 publicip.id 
    } 
  }
 resource   "azurerm_windows_virtual_machine"   "example"   { 
